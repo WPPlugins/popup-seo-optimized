@@ -1,0 +1,136 @@
+.cspopupseoo-clearfix:before, .cspopupseoo-clearfix:after{
+  content: "";
+  display: table;
+}
+.cspopupseoo-clearfix::after{
+  clear: both;
+}
+.cspopupseoo-popup-wrp *{box-sizing: border-box;}
+.cspopupseoo-popup-cnt-inr-wrp {text-align:center;}
+.cspopupseoo-popup-open #cspopupseoo-popup-wrp {
+  display: block;
+}
+#cspopupseoo-popup-wrp {
+  bottom: 0;
+  display: none;
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999999;
+}
+.cspopupseoo-popup-wrp.splash {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+}
+.cspopupseoo-popup-body {
+  background-color: #fff;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 15%;
+  max-width: 50%;
+  width: auto;
+}
+.cspopupseoo-popup-body p{
+  line-height: 1.71429;
+  margin: 0 0 1.71429rem;
+}
+.cspopupseoo-popup-body p:last-child{
+  margin: 0;
+}
+.text-right {
+  text-align: right !important;
+}
+.cspopupseoo-popup-cnt-inr-wrp{
+  clear: both;
+  font-size: 14px;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  overflow: auto;
+}
+.cspopupseoo-popup-open, .cspopupseoo-popup-open body {
+  overflow: hidden;
+}
+.cspopupseoo-popup-wrp .cspopupseoo-popup-close-button {
+  background: rgba(0, 0, 0, 0) url("../images/close.png") no-repeat scroll 0 0;
+  display: block;
+  height: 35px;
+  position: absolute;
+  right: -12px;
+  text-decoration: none !important;
+  top: -12px;
+  width: 35px;
+  z-index: 1500;
+}
+
+/***** Design 1 Starts*****/
+.design1 .cspopupseoo-popup-body{
+  border: 0;
+  background-color: #fff;
+  color: #fff;
+}
+.design1 h2 {
+  color: #333;
+  margin-top:0;
+}
+.design1 h4 {
+  color: #757575;
+}
+.design1 p, .design1 {
+  color:#333;
+}
+.cspopupseoo-popup-cnt-wrp-header {
+  background: #f1f1f1;
+}
+.design1 .cspopupseoo-popup-cnt-inr-wrp {
+  padding:0;
+}
+.design1 .cspopupseoo-popup-cnt-wrp-header {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+.cspopupseoo-popup-cnt-wrp-content {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+.design1 .cspopupseoo-popup-body {
+  border-radius:5px;
+}
+/***** Design 1 Ends*****/
+
+/***** Design 2 Starts*****/
+.design2 h2 {
+  margin-top:0;
+}
+.cspopupseoo-popup-bar-wrp{
+  clear: both;
+  margin-bottom: 20px;
+}
+.cspopupseoo-popup-bar{
+  display: block;
+  float: left;
+  height: 11px;
+  width: 25%;
+}
+.design2 .cspopupseoo-popup-bar-wrp {
+  margin-bottom:0;
+}
+.cspopupseoo-red-bar {background-color: #ef3e36;}
+.cspopupseoo-green-bar {background-color: #abb92e;}
+.cspopupseoo-orange-bar{background-color: #f57826;}
+.cspopupseoo-blue-bar{background-color: #17b4e9;}
+/***** Design 2 End*****/
+
+/*--- For Menu Media Css Starts ---*/
+@media only screen and (max-width: 650px) {
+  .cspopupseoo-popup-body{
+    width:90% !important;
+  }
+}
